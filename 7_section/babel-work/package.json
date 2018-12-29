@@ -1,0 +1,17 @@
+// npm run build =for starting script in app
+{
+	"name": "8_section",
+	"version": "1.0.0",
+	"description": "",
+	"main": "script.js",
+	"dependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-polyfill": "^6.26.0",
+		"babel-preset-env": "^1.7.0"
+	},
+	"scripts": {
+		"build": "babel script.js --presets env script.js --out-file script-transpiled.js"
+	},
+	"author": "",
+	"license": "ISC"
+}
